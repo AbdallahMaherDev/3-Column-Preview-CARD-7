@@ -37,6 +37,9 @@ body {
     body {
         margin: 16px ;
     }
+    .container {
+        margin-top: 6px;
+    }
     .container .box {
         width: 306.5px;
     }
