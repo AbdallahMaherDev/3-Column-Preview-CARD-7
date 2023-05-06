@@ -35,7 +35,7 @@ body {
 }
 @media (min-width: 768px) {
     .container {
-        margin-bottom: 33px;
+        margin: 16px 16px 33px ;
     }
     .container .box {
         width: 306.5px;
