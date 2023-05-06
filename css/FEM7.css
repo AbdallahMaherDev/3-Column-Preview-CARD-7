@@ -26,7 +26,7 @@ body {
     overflow: hidden;
 }
 .container {
-    border-radius: 8px;
+    border-radius: 8.1px;
     overflow: hidden;
     display: flex;
 }
@@ -36,9 +36,6 @@ body {
 @media (min-width: 768px) {
     body {
         margin: 16px ;
-    }
-    .container {
-        margin-bottom: 16px;
     }
     .container .box {
         width: 306.5px;
