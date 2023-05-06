@@ -1,0 +1,127 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%)  ;
+    --Dark-cyan: hsl(184, 100%, 22%) ;
+    --Very-dark-cyan: hsl(179, 100%, 13%) ;
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75) ;
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%) ;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    min-height: 100vh;
+    margin: 72px 24px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    Font-size: 15px ;
+    overflow: hidden;
+}
+.container {
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+.container .box {
+    padding: 3rem 2.6rem 3rem 3rem
+}
+@media (min-width: 768px) {
+    .container {
+        margin-bottom: 33px;
+    }
+    .container .box {
+        width: 306.5px;
+    }
+}
+.container .orang {
+    background-color: var(--Bright-orange);
+}
+.container .green {
+    background-color: var(--Dark-cyan);
+}
+.container .gsreeen {
+    background-color: var(--Very-dark-cyan);
+}
+.container .box img {
+    margin-bottom: 32px;
+}
+.container .box h1 {
+    color: var(--Very-light-gray-background-headings-buttons);
+    margin-bottom: 1.62rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.1px;
+}
+.container .box p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent-white-paragraphs);
+    margin-bottom: 5.1rem;
+    line-height: 1.7;
+}
+@media (min-width: 768px) {
+    .container .box p {
+        font-size: 0.875rem;
+        letter-spacing: 0.47px;
+        line-height: 25px;
+        padding-right: 6px;
+    }
+    .container .green p {
+        letter-spacing: 0.55px;
+        padding-right: 6px;
+    }
+    .container .gsreeen p {
+        letter-spacing: 0.46px;
+    }
+}
+.container .box a {
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    letter-spacing: 0.1px;
+    padding: 11.5px 29.5px 13px 29px;
+    border-radius: 32px;
+    display: block;
+    width: fit-content;
+    transition: background-color 500ms;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid var(--Very-light-gray-background-headings-buttons);
+}
+.container .green a {
+    padding: 12px 29.5px 13px 29px;
+}
+.container .gsreeen a {
+    padding: 12px 29.5px 13px 28px;
+}
+.container .box a:hover {
+    color: var(--Transparent-white-paragraphs);
+    background-color: transparent;
+}
+.container .orang a {
+    color: var(--Bright-orange);
+}
+.container .green a {
+    color: var(--Dark-cyan);
+}
+.container .gsreeen a {
+    color: var(--Very-dark-cyan);
+}
+@media (max-width: 767px) {
+    html {
+        font-size: 16px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .box p {
+        margin-bottom: 24px;
+    }
+    .container .box a {
+        padding: 12.3px 28px;
+    }
+}
