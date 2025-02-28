@@ -23,7 +23,6 @@ body {
     align-items: center;
     display: grid;
     Font-size: 15px ;
-    overflow: hidden;
 }
 .container {
     border-radius: 8.1px;
