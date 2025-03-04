@@ -2,7 +2,9 @@
 
 🌟 Introduction
 
-Hello! I'm Abdallah Maher, and this is a solution to the "Results Summary Component" challenge from Frontend Mentor. This project is a simple yet elegant component that displays a user's test results in a visually appealing way.
+Hello! I'm Abdallah Maher, and this is a solution to the "3-column preview card component" challenge from Frontend Mentor. This project is a modern, responsive, and visually appealing card layout that showcases three different categories with a clean UI.
+
+
 
 🚀 Features
 
@@ -14,13 +16,7 @@ Dynamic score representation
 
 🛠 Technologies Used
 
-HTML5
-
-CSS3 (Flexbox & Grid for layout)
-
-git clone (https://github.com/AbdallahMaherDev/3-Column-Preview-CARD-7)
-
-Open index.html in your browser to view the component.
+HTML  /  CSS3 (Flexbox)
 
 🎨 Preview
 
